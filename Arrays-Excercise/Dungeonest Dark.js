@@ -25,7 +25,7 @@ function dungeonestDark(arr){
             health -= num;
 
             if(health > 0){
-                console.log(`You slayed ${command}`);
+                console.log(`You slayed ${command}.`);
             }else{
                 console.log(`You died! Killed by ${command}.`);
                 console.log(`Best room: ${bestRoom}`);
