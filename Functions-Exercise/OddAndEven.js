@@ -14,6 +14,6 @@ function oddAndEvenSum(num){
             oddSum += currChar;
         }
     }
-     console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`)
+     console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`);
 }
 oddAndEvenSum(1000435)
