@@ -13,6 +13,7 @@ function bombNumbers(arr, bomb) {
     }
     console.log(sum);
 }
+
 bombNumbers([1, 2, 2, 4, 2, 2,
 
     2, 9],
