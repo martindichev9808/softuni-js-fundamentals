@@ -28,7 +28,7 @@ function deckOfCards(arr) {
             let card = deck[index];
             if (index != - 1 && index < deck.length) {
                 deck.splice(index, 1);
-                console.log('Card successfuly removed');
+                console.log('Card successfully removed');
             } else {
                 console.log('Index out of range');
             }
